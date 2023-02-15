@@ -1,6 +1,6 @@
 class Computer:
 
-    # What attributes will it need?
+    # attributes
     # description: str
     # processor_type: str
     # hard_drive_capacity: int
@@ -27,7 +27,7 @@ class Computer:
         elif self.year_made < 2018:
             self.price = 606
         else:
-            self.price = 714
+            self.price = 713
 
     def update_price(self, new_price):
         self.price = new_price
